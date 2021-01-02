@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-backendaws-dev-120329-authRole",
+      "UnauthRoleArn": "arn:aws:iam::587884918254:role/amplify-backendaws-dev-120329-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::587884918254:role/amplify-backendaws-dev-120329-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-backendaws-dev-120329-deployment",
+      "UnauthRoleName": "amplify-backendaws-dev-120329-unauthRole",
+      "StackName": "amplify-backendaws-dev-120329",
+      "StackId": "arn:aws:cloudformation:us-east-1:587884918254:stack/amplify-backendaws-dev-120329/7256adb0-480d-11eb-be7d-123f2d95f4cf",
+      "AmplifyAppId": "d2xtla0pztbpdj"
+    },
+    "categories": {
+      "auth": {
+        "cognito91eddbc6": {}
+      }
+    }
+  }
+}

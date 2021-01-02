@@ -1,0 +1,45 @@
+{
+    "paths": [
+        {
+            "name": "/todos",
+            "lambdaFunction": "todoLamdba",
+            "privacy": {
+                "protected": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ],
+                "unauth": [
+                    "/GET"
+                ]
+            },
+            "policyResourceName": "/todos"
+        }
+    ],
+    "resourceName": "apii",
+    "apiName": "apii",
+    "functionArns": [
+        {
+            "lambdaFunction": "todoLamdba"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 1,
+        "authRoleName": "amplify-backendaws-dev-120329-authRole",
+        "unAuthRoleName": "amplify-backendaws-dev-120329-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "todoLamdba",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
